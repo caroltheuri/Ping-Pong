@@ -2,3 +2,35 @@
   background-color:#F15A29 ;
   font-family: 'Chewy', cursive;
 }
+.col-md-3{
+  height:200px;
+  background-image: url("../download.jpg");
+  background-size: contain;
+  font-size: 20px;
+  width:100%;
+  color:black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.col-md-9{
+  background-image: url("../PingPont.jpg");
+  /*text-shadow: 1px 1px 1px black;*/
+    font-size: 20px;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: bolder;
+}
+#final{
+  display: none;
+}
+img{
+  float:right;
+  }
+  #image{
+    display:none;
+  }
+  h2{
+    text-align: center;
+    color: #F15A29 ;
+  }
+  h1{
+    color: #F15A29;
+  }

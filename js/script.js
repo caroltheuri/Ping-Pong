@@ -19,14 +19,16 @@ var game = function(userInputs) {
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
+    alert("Awesome");
     var userInputs = parseInt($("input#divisible").val());
     var results = game(userInputs);
+    $("#image").show();
     $("#final").text("");
     $("#final").append("<ul>");
     results.forEach(function(result) {
       $("#final").append("<li>" + result + "</li>");
     })
     $("#final").append("<ul>");
+    $("#final").fadeIn(3000).fadeOut(10000);
+      });
   });
-
-});
